@@ -1,38 +1,44 @@
-.App {
+.image-ctnr {
   text-align: center;
+  margin: 5px ;
+  width: 20%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.avatar-image {
+ 
+ max-width: 50px;
+    border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.findmore-btn {
+  margin-top: 8px;
+  color: blue
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gist-ctnr {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 1rem;
+  background-color: #8d868652;
+  padding: 1rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    align-items: center;
+    border-radius: 5px;
+    width: 270px;
+    max-width: 500px;
+
+}
+ 
+.gistList-ctnr {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gist-name {
+  margin: 5px 5px 5px 0px; 
+  text-align: left;
+  font-size: 75%;
+  font-weight: 300;
 }
