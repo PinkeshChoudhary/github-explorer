@@ -2,6 +2,8 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div>pinkesh</div>
+    <div>
+      <a href='https://github.com/PinkeshChoudhary/github-explorer'>Pinkesh Choudhary</a>
+      </div>
   )
 }
