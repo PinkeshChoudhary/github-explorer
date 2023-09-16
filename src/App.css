@@ -42,3 +42,9 @@
   font-size: 75%;
   font-weight: 300;
 }
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
